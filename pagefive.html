@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doll Studio</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+<body id="dollstudiobg">
+    
+        <div class="lightbulb">
+            <img src="images/lightbulboff.png" id="lightbulb"/>
+<script>
+    let count = 0;
+    window.addEventListener('load', () => {
+        let img = document.getElementById('lightbulb');
+        img.addEventListener('click', changeImage);
+    })
+
+    function changeImage(element) {
+        let img = document.getElementById('lightbulb');
+        if (count % 2 === 0) {
+            img.src = "images/lightbulbon.png";
+        } else {
+            img.src = "images/lightbulboff.png";
+        }
+        count++;
+    }
+</script>
+</div>
+
+<div class="arrowback">
+  <a href="pagefour.html">
+      <img src="images/arrowback.png" class="arrowback5" class="arrow" alt="Go to previous page" />
+      </a>
+    </div>
+    <div class="arrownext">
+   <a href="index.html">
+          <img src="images/arrownext.png" class="arrownext5" class="arrow" alt="Go to next page" />
+   </a>
+</div> 
+
+<div class="doll">
+    <img src="images/doll.png" class="dollbody" class= "animations" alt= ""
+    onmouseover="this.src='images/dollanimated.gif'   " 
+        onmouseout="this.src='images/doll.png' " />
+     </div>
+
+     <div>
+        <img src="images/dollhead.png" class="head" class= "animations" alt= ""
+        onmouseover="this.src='images/dollheadanimated.gif'   " 
+            onmouseout="this.src='images/dollhead.png' " />
+         </div>
+
+<div class="p5">
+<p class="ppage5">A doll maker's studio. A lonely
+    man, he carefully crafts vintage dolls to fill
+    the house. Neighbors find it unsettling, but
+    he enjoys their time together.  
+</p>
+</div>
+
+
+</div>
+
+
+</body>
+</html>

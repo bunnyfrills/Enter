@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mirror Room</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body id="mirrorbg">
+   
+    <p class="page3">A carnival house of mirrors, which
+        often appears empty. Urban legends describe
+    spirits lurking within the mirrors. Destroying
+one will surely apply a life long curse. </p>
+
+    <div>
+        <a href="pagetwo.html">
+            <img src="images/arrowback.png" class="arrowback3" class="arrow" alt="Go to previous page">
+        </a>
+         <a href="pagefour.html">
+                <img src="images/arrownext.png" class="arrownext3" class="arrow" alt="Go to next page">
+                </a>
+       </div> 
+
+       <div>
+        <style>
+            .day {
+              background-image: url("images/HOMmorning.jpg");
+              background-size: cover;
+              height: 100vh;
+              width: 100vh;
+              background-repeat: no-repeat;
+            }
+            
+            .night {
+              background-image: url("images/HOMafternoons.jpg");
+              background-size: cover;
+              height: 100vh;
+              width: 100vh;
+              background-repeat: no-repeat;
+            }
+          </style>
+        </head>
+        <body class="day" class="night">
+          <script>
+            setInterval(function() {
+              var d = new Date();
+              var n = d.getHours();
+              if (n > 23 || n < 6) {
+                document.body.className = "night";
+              } else {
+                document.body.className = "day";
+              }
+              console.log("test");
+            }, 1000 * 60 * 60);
+          </script>
+</div>
+
+
+
+
+</body>
+</html>

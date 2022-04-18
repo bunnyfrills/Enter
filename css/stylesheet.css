@@ -1,0 +1,244 @@
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color:black;
+}
+
+img.wardrobe {
+        max-width: 20%;
+        width: 20%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+}
+
+h3 {
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    color:black;
+}
+p.page2 {
+    border-style: solid;
+    position: absolute;
+    top: 650px;
+    left: 173px;
+    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    background-color: white;
+    width: 23%;
+}
+
+img.arrowback2 {
+position: absolute;
+top: 780px;
+left: 0px;
+}
+
+img.arrownext2 {
+position: absolute;
+top: 780px;
+left: 550px;
+}
+
+audio {
+  position: absolute;
+  top: 800px;
+  right: 0px;
+}
+
+  img.parasyte {
+      position: absolute;
+      left: 940px;
+      top: 380px;
+  }
+
+  img.spider {
+      position: absolute;
+      left: 350px;
+      top: 0px;
+      width: 17%;
+      height: auto;
+  }
+
+
+  img.animations {
+      z-index: 2;
+  }
+
+  img.arrow {
+      z-index: 4;
+  }
+
+  audio {
+    z-index: 4;
+  }
+
+  p {
+    z-index: 3;
+  }
+
+  h1 {
+    z-index: 3;
+  }
+
+
+img.arrowback5 {
+  position: absolute;
+  top: 950px;
+  left: 0px;
+}
+
+img.arrownext5 {
+    position: absolute;
+    top: 950px;
+    left: 550px;
+}
+
+audio.flickeraudio {
+  position: relative;
+  top: 430px;
+  left: 90px;
+}
+
+p.page3 {
+  border-style: solid;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 23%;
+  text-align: center;
+  position: absolute;
+    top: 650px;
+    left: 173px;
+}
+
+img.arrowback3 {
+  position: absolute;
+  top: 780px;
+  left: 0px;
+}
+
+img.arrownext3 {
+  position: absolute;
+  top: 780px;
+  left: 550px;
+}
+
+p.page4 {
+  border-style: solid;
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  width: 23%;
+  position: absolute;
+    top: 650px;
+    left: 173px;
+}
+
+img.arrowback4 {
+  position: absolute;
+  top: 780px;
+  left: 0px;
+}
+
+img.arrownext4 {
+  position: absolute;
+  top: 780px;
+  left: 650px;
+}
+
+img.sink {
+  position: absolute;
+  left: 450px;
+  top: 280px;
+}
+
+img.toilet {
+  position: absolute;
+  left: 1150px;
+  top: 40px;
+}
+
+p.ppage5 {
+  border-style: solid;
+  position: absolute;
+  top: 840px;
+  left: 110px;
+  padding-left: 10px;
+  font-size: 12pt;
+  padding-right: 10px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  width: 25%;
+}
+
+#gardenbg {
+  background-image: url('../images/gardenbg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+}
+
+#mirrorbg {
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+}
+
+#bathroombg {
+  background-image: url('../images/bathroombg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+}
+
+#dollstudiobg {
+  background-image: url('../images/dollstudio.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vh;
+  
+}
+
+#lightbulb {
+  position: relative;
+  left: 1000px; 
+  top: 0px;
+}
+
+img.head {
+  position: relative;
+  left: 1050px;
+  top: 350px;
+  block-size: auto;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+img.dollbody {
+  position: relative;
+  left:400px;
+  top: 400px;
+}
