@@ -221,15 +221,15 @@ p.ppage5 {
 }
 
 #lightbulb {
-  position: relative;
+  position: absolute;
   left: 1000px; 
   top: 0px;
 }
 
 img.head {
-  position: relative;
-  left: 1050px;
-  top: 350px;
+  position: absolute;
+  left: 1060px;
+  top: 750px;
   block-size: auto;
   max-width: 100%;
   margin-left: auto;
@@ -238,7 +238,7 @@ img.head {
 }
 
 img.dollbody {
-  position: relative;
-  left:400px;
-  top: 400px;
+  position: absolute;
+  left:390px;
+  top: 530px;
 }
